@@ -1,0 +1,113 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+P{
+    text-align: justify;
+}
+/*-----------------------------------------------*/
+/*------------fomdo de encabezado ---------------*/
+.div_fondo_imagen{
+    background-image:url(../img/gunsNroses.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+/*-----------------------------------------------*/
+/*------------contenedor encabezado -------------*/
+
+.contenedor_Padre1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    max-height: 70%;
+}
+/*-----------------------------------------------*/
+/*---------color------------------------*/
+
+.color_title{
+    color: white;
+    font-size: 100px;
+    font-family:'Bowlby One SC', cursive;
+    border: 5px;
+}
+
+.contenedor_resumen{
+    padding: 20px;
+    background-color: #012b50;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contedor_padre2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.estilo_contenedores{
+    display: flex;
+    flex-direction: column;
+    max-width: 18em;
+    box-shadow: 0 6px 15px #000 ;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.contenedor_nombre_fecha{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.contenedor_img{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    filter:grayscale(100%);
+    border-radius: 10px 10px 0 0;
+}
+
+.imagenes_contenedores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    height: 30vh;
+}
+
+.parrafos_contenedores{
+    margin: 15px;
+    height: 60%;
+}
+
+.contenedor_grupo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #012b50;
+    padding: 10px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    border-radius: 0 0 10px 10px ;
+    overflow: hidden;
+}
+
+.contenedor_footer{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto,sans-serif;
+}
+
+
+
+
